@@ -307,13 +307,3 @@ manejable.
 
 **Espacio:** O(T) — se usa una sola tabla 1D `table[0..T]`, reutilizada en cada módulo
 (en vez de una tabla 2D de tamaño `n × T`, que sería O(n·T) de memoria).
-
----
-
-## Resumen de complejidades
-
-| Problema | Técnica | Tiempo | Espacio |
-|---|---|---|---|
-| A — Inversion Counter | Divide & Conquer | O(n log n) | O(n) |
-| B — Minimum Meeting Rooms | Greedy | O(m²) actual / O(m log m) con heap | O(m) |
-| C — Budgeted Study Plan | Programación Dinámica | O(n·T) | O(T) |
