@@ -87,7 +87,7 @@ Entrada: `A = [2, 4, 1, 3, 5]`
   - Compara 4 vs 5 → 4 ≤ 5 → sin inversión.
 - Total: **3 inversiones**, que corresponden a los pares `(2,1)`, `(4,1)`, `(4,3)`.
 
-Salida del programa: `3` ✅ (coincide con la esperada).
+Salida del programa: `3` (coincide con la esperada).
 
 ### 6. Complejidad
 
@@ -209,7 +209,7 @@ Entrada: reuniones `(0,30), (5,10), (15,20)` (ya ordenadas por inicio).
   (`lastEnd = 10 <= 15`, libre) → se reutiliza Sala 2, `lastEnd = 20`.
 - Salas abiertas al final: 2.
 
-Salida del programa: `2` ✅.
+Salida del programa: `2` (coincide con lo esperado).
 
 ### 6. Complejidad
 
@@ -297,7 +297,7 @@ Entrada: módulos `(3,4), (4,5), (7,10)`, `T = 10`.
 - Resultado: `table[10] = 14`, logrado con los módulos de costo 3 y 7
   (`3 + 7 = 10 <= T`, `4 + 10 = 14`).
 
-Salida del programa: `14` ✅.
+Salida del programa: `14` (coincide con lo esperado).
 
 ### 6. Complejidad
 
